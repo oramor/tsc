@@ -1,0 +1,21 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "rootDir": ".",
+        "module": "ESNext",
+        "target": "ESNext",
+        "outDir": "dist",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "useUnknownInCatchVariables": false,
+        "declaration": true,
+        "declarationMap": true
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "dist"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "tsc",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "TypeScript compilier investigation",
+    "main": "index.js",
+    "repository": "git@github.com:oramor/tsc.git",
+    "author": "Roman Rodin <romaro83@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    }
+}
